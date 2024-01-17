@@ -1,7 +1,7 @@
 
 
 const myImage = document.querySelector("img");
-const myButton = document.querySelector("button")
+const firstButton = document.querySelector("button.first")
 
 myButton.onclick = () => {
     const mySrc = myImage.getAttribute("src");
@@ -11,3 +11,9 @@ myButton.onclick = () => {
       myImage.setAttribute("src", "images/self-portrait.png");
     }
   };
+
+const secondButton = document.querySelector("button.second")
+
+secondButton.onclick = () => {
+    alert("Hello")
+}
