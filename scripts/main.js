@@ -12,8 +12,6 @@ myButton.onclick = () => {
     }
   };
 
-const secondButton = document.querySelector("button.second")
-
-secondButton.onclick = () => {
-    alert("Hello")
-}
+document.querySelector("button.second").addEventListener("click", function () { 
+    alert("Hello");
+});
